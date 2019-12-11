@@ -1,19 +1,14 @@
-<form action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.newsletter-id }}/" method="post" name="form_{{ site.data.forms.jotform.newsletter-id }}" accept-charset="utf-8">
-    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.newsletter-id }}">
+<form name="newsletterForm">
+    <input type="hidden" name="formID" value="4CA9AFB5-C3D1-4DB7-90BA-650E3D62009C">
     <div class="form-group d-flex justify-content-center">
-      <input type="email" class="form-control" name="q3_email" placeholder="Email Contact" aria-label="Enter Your Email Contact" required>
+      <input type="email" class="form-control" name="emailAddress" placeholder="Email Contact" aria-label="Enter Your Email Contact" required>
       <button type="submit">sign up</button>
     </div>
     <div class="form-group form-check">
       <label class="cstm-checkbox">
-        <input type="checkbox" name="q4_iAgree[]" class="" value="YES" required aria-label="I agree to the Terms of Use & Accessibility Statement">
+        <input type="checkbox" name="q4_iAgree[]" value="YES" aria-label="I agree to the Terms of Use & Accessibility Statement" required>
         <span class="checkmark"></span>
         <span class="text">I agree to the <a href="/privacy/">Privacy Policy</a> & <a href="/accessibility/">Accessibility Statement</a></span>
       </label>
     </div>
-    <script type="text/javascript">
-        document.getElementById("si" + "mple" + "_spc").value = "{{ site.data.forms.jotform.newsletter-id }}-{{ site.data.forms.jotform.newsletter-id }}";
-    </script>
 </form>
-
-<script type="text/javascript">JotForm.ownerView=true;</script>
