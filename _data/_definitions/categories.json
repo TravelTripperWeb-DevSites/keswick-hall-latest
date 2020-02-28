@@ -2,8 +2,7 @@
   "title": {
     "label": "Category Name",
     "character_limit": 25,
-    "required": true,
-    "multiple": true
+    "required": true
   },
   "description": {
     "label": "Category Description",
