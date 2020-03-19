@@ -51,7 +51,7 @@
     "display_field": "name",
     "model_name": "room_amenities",
     "can_create": true,
-    "order_field": "name"
+    "order_field": "order"
   },
   "featured_image": {
     "type": "image"
