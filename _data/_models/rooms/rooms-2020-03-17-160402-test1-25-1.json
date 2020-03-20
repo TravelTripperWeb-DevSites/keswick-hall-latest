@@ -1,0 +1,22 @@
+{
+  "order": 2,
+  "name_localized": {
+    "en": "Test1"
+  },
+  "url_friendly_name_localized": {
+    "en": "test1"
+  },
+  "short_description_localized": {
+    "en": "test1"
+  },
+  "description_localized": {
+    "en": "<p>test1</p>"
+  },
+  "size": "1234",
+  "amenities": [
+    "room_amenities-2020-03-16-152223-test1-25-1",
+    "room_amenities-2020-03-16-152336-test3-25-1",
+    "room_amenities-2020-03-16-163307-test4-25-1",
+    "room_amenities1"
+  ]
+}
