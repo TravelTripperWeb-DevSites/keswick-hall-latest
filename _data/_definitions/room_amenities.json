@@ -1,0 +1,21 @@
+{
+  "name": {
+    "required": true,
+    "localizable": true
+  },
+  "icon": {
+    "type": "image",
+    "required": false
+  },
+  "short_description": {
+    "type": "text",
+    "localizable": true
+  },
+  "description": {
+    "type": "rich_text",
+    "localizable": true    
+  },
+  "order": {
+    "type": "order"
+  }
+}
