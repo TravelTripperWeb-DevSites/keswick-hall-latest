@@ -50,8 +50,7 @@
     "multiple": true,
     "display_field": "name",
     "model_name": "room_amenities",
-    "can_create": true,
-    "order_field": "name"
+    "can_create": true
   },
   "featured_image": {
     "type": "image"
