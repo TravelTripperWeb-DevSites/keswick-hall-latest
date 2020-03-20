@@ -1,0 +1,12 @@
+{
+  "order": 3,
+  "name_localized": {
+    "en": "Test2"
+  },
+  "url_friendly_name_localized": {
+    "en": "test2"
+  },
+  "amenities": [
+    "room_amenities-2020-03-16-152336-test3-25-1"
+  ]
+}
